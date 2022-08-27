@@ -1,0 +1,7 @@
+C:\VS扩展开发\1\QTS.Console\bin\Debug\QTS.Console.exe.config
+C:\VS扩展开发\1\QTS.Console\bin\Debug\QTS.Console.exe
+C:\VS扩展开发\1\QTS.Console\bin\Debug\QTS.Console.pdb
+C:\VS扩展开发\1\QTS.Console\obj\Debug\QTS.Console.csproj.AssemblyReference.cache
+C:\VS扩展开发\1\QTS.Console\obj\Debug\QTS.Console.csproj.CoreCompileInputs.cache
+C:\VS扩展开发\1\QTS.Console\obj\Debug\QTS.Console.exe
+C:\VS扩展开发\1\QTS.Console\obj\Debug\QTS.Console.pdb

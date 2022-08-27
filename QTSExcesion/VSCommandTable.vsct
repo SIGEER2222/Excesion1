@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<Extern href="stdidcmd.h"/>
+	<Extern href="vsshlids.h"/>
+	<Include href="KnownImageIds.vsct"/>
+	<Include href="VSGlobals.vsct"/>
+
+	<Commands package="QTSExcesion">
+		<Menus>
+			<!--菜单栏-->
+			<Menu guid="QTSExcesion" id ="TopMeun" type="Menu" priority="0x0600">
+				<Parent guid="guidSHLMainMenu" id="IDG_VS_MM_BUILDDEBUGRUN"/>
+				<Strings>
+					<ButtonText>QTS</ButtonText>
+					<CommandName>QTS</CommandName>
+				</Strings>
+			</Menu>
+			<!--工具栏-->
+			<Menu guid="QTSExcesion" id="Toolbar" type="Toolbar">
+				<Strings>
+					<ButtonText>Toolbar</ButtonText>
+					<CommandName>Toolbar</CommandName>
+				</Strings>
+			</Menu>
+		</Menus>
+		<Groups>
+			<!--工具栏组-->
+			<Group guid="QTSExcesion" id="ToolbarGroup" priority="0x0600">
+				<Parent guid="QTSExcesion" id="Toolbar"/>
+			</Group>
+			<!--右键组-->
+			<Group guid="QTSExcesion" id="RightGroup" priority="0x0600">
+				<Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_PROJNODE" />
+			</Group>
+			<!--菜单组-->
+			<Group guid="QTSExcesion" id="TopMeunGroup" priority="0x0600">
+				<Parent guid="QTSExcesion" id="TopMeun"/>
+			</Group>
+		</Groups>
+
+		<!--This section defines the elements the user can interact with, like a menu command or a button
+        or combo box in a toolbar. -->
+		<Buttons>
+			<!--工具栏发布-->
+			<Button guid="QTSExcesion" id="PublishButton" priority="0x0100" type="Button">
+				<Parent guid="QTSExcesion" id="ToolbarGroup" />
+				<Icon guid="ImageCatalogGuid" id="PublishAllWebSites" />
+				<Strings>
+					<ButtonText>发布啦靓仔</ButtonText>
+				</Strings>
+			</Button>
+			<!--菜单下发布-->
+			<Button guid="QTSExcesion" id="PublishButton" priority="0x0100" type="Button">
+				<Parent guid="QTSExcesion" id="TopMeunGroup" />
+				<Icon guid="ImageCatalogGuid" id="StatusInformation" />
+				<Strings>
+					<ButtonText>发布</ButtonText>
+				</Strings>
+			</Button>
+			<!--打包按钮-->
+			<Button guid="QTSExcesion" id="PackButton" priority="0x0100" type="Button">
+				<Parent guid="QTSExcesion" id="RightGroup" />
+				<Icon guid="ImageCatalogGuid" id="StatusInformation" />
+				<Strings>
+					<ButtonText>打包</ButtonText>
+				</Strings>
+			</Button>
+			<!--设置按钮-->
+			<Button guid="QTSExcesion" id="SetButton" priority="0x0100" type="Button">
+				<Parent guid="QTSExcesion" id="TopMeunGroup" />
+				<Icon guid="ImageCatalogGuid" id="StatusInformation" />
+				<CommandFlag>IconIsMoniker</CommandFlag>
+				<Strings>
+					<ButtonText>设置</ButtonText>
+				</Strings>
+			</Button>
+		</Buttons>
+	</Commands>
+
+	<Symbols>
+		<GuidSymbol name="QTSExcesion" value="{133904a6-d275-4c8a-8c78-5f0be8e10032}">
+			<IDSymbol name="TopMeun" value="0x0010" />
+			<IDSymbol name="TopMeunGroup" value="0x0011" />
+			<IDSymbol name="Toolbar" value="0x0015" />
+			<IDSymbol name="ToolbarGroup" value="0x0016" />
+			<IDSymbol name="RightGroup" value="0x0020" />
+			<IDSymbol name="PublishButton" value="0x0102" />
+			<IDSymbol name="PackButton" value="0x0103" />
+			<IDSymbol name="SetButton" value="0x0104" />
+		</GuidSymbol>
+	</Symbols>
+</CommandTable>

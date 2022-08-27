@@ -1,0 +1,13 @@
+C:\VS扩展开发\1\QTS.Win\bin\Debug\QTS.Win.exe.config
+C:\VS扩展开发\1\QTS.Win\bin\Debug\QTS.Win.exe
+C:\VS扩展开发\1\QTS.Win\bin\Debug\QTS.Win.pdb
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Win.Properties.Resources.resources
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Win.csproj.GenerateResource.cache
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Win.csproj.CoreCompileInputs.cache
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Win.exe
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Win.pdb
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Win.Form1.resources
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Win.Package.resources
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Win.PackageUI.resources
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Win.Publish.resources
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Win.PublishUI.resources

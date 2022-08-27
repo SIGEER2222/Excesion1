@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\VS扩展开发\\1\\QTSExcesion\\QTS.Excesion.csproj": {}
+  },
+  "projects": {
+    "C:\\VS扩展开发\\1\\QTS.Win\\QTS.Excesion.Win.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\VS扩展开发\\1\\QTS.Win\\QTS.Excesion.Win.csproj",
+        "projectName": "QTS.Excesion.Win",
+        "projectPath": "C:\\VS扩展开发\\1\\QTS.Win\\QTS.Excesion.Win.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\VS扩展开发\\1\\QTSExcesion\\QTS.Excesion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\VS扩展开发\\1\\QTSExcesion\\QTS.Excesion.csproj",
+        "projectName": "QTS.Excesion",
+        "projectPath": "C:\\VS扩展开发\\1\\QTSExcesion\\QTS.Excesion.csproj",
+        "packagesPath": "C:\\Users\\sigeer\\.nuget\\packages\\",
+        "outputPath": "C:\\VS扩展开发\\1\\QTSExcesion\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\sigeer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\VS扩展开发\\1\\QTS.Win\\QTS.Excesion.Win.csproj": {
+                "projectPath": "C:\\VS扩展开发\\1\\QTS.Win\\QTS.Excesion.Win.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Community.VisualStudio.Toolkit.16": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[16.0.430, )"
+            },
+            "Community.VisualStudio.VSCT": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[16.0.29.6, )"
+            },
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[16.10.1055, )",
+              "generatePathProperty": true
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

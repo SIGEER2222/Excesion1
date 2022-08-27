@@ -1,0 +1,18 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="QTSExcesion.8a1e960e-23d2-44dc-83a6-d72ce62987f5" Version="1.0" Language="zh-Hans" Publisher="Sigeer" />
+    <DisplayName>QTSExcesion</DisplayName>
+    <Description xml:space="preserve">Empty VSIX Project.</Description>
+    <Icon>Resources\Icon.png</Icon>
+    <PreviewImage>Resources\Icon.png</PreviewImage>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
+  </Installation>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,)" DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="QTSExcesion.pkgdef" />
+  </Assets>
+</PackageManifest>

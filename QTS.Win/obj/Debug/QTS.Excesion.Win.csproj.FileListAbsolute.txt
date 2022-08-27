@@ -1,0 +1,14 @@
+C:\VS扩展开发\1\QTS.Win\bin\Debug\QTS.Excesion.Win.exe.config
+C:\VS扩展开发\1\QTS.Win\bin\Debug\QTS.Excesion.Win.exe
+C:\VS扩展开发\1\QTS.Win\bin\Debug\QTS.Excesion.Win.pdb
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Excesion.Win.Package.resources
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Excesion.Win.SetPage.resources
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Excesion.Win.Properties.Resources.resources
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Excesion.Win.Publish.resources
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Excesion.Win.PublishPage.resources
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Excesion.Win.PublishUI.resources
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Excesion.Win.csproj.GenerateResource.cache
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Excesion.Win.csproj.CoreCompileInputs.cache
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Excesion.Win.exe
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Excesion.Win.pdb
+C:\VS扩展开发\1\QTS.Win\obj\Debug\QTS.Excesion.Win.csproj.AssemblyReference.cache
